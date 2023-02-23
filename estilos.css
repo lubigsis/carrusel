@@ -7,7 +7,7 @@
 body{
     display: flex;
     min-height: 100vh; /*p/centrar el slide*/
-    background: rgb(2, 2, 75);
+    background: #08025b;
 }
 
 .contenedor-slider{
@@ -27,6 +27,7 @@ body{
     display: flex;/*p/poner las img una al lado de la otra*/
     width: 1000%; /*xq' son 10 img*/
     height: 450px;
+    margin-left: -100%; /*********************p/hacer el enfoque de la img c/JS*************************/
 }
 .slider-seccion{
     width: 100%;/*c/img, de ese 1000%, va a ocupar el 100%*/
